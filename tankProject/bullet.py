@@ -17,7 +17,7 @@ class Bullet(pygame.sprite.Sprite):
 		# 在坦克类中再赋实际值
 		self.rect.left, self.rect.right = 0, 0
 		# 速度
-		self.speed = 7
+		self.speed = 8
 		# 是否存活
 		self.being = False
 		# 是否为加强版子弹(可碎钢板)
