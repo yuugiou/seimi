@@ -31,7 +31,7 @@ class Food(pygame.sprite.Sprite):
 		# 是否存在
 		self.being = False
 		# 存在时间
-		self.time = 1000
+		self.time = 2000
 	# 生成食物
 	def generate(self):
 		self.kind = random.randint(0, 6)
